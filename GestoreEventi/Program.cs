@@ -32,3 +32,24 @@ Console.WriteLine("");
 Console.WriteLine("Quanti posti vuoi disdire?");
 int numeroPostiDaDisdire = int.Parse(Console.ReadLine());
 
+
+//Milestone 4
+
+//Creazione nuovo programma di eventi che l'utente vuole organizzare
+
+Console.WriteLine("Quali eventi vuoi aggiungere?");
+
+Console.WriteLine("Inserisci il nome di questi eventi");
+string nomeProgramma = Console.ReadLine();
+
+Console.WriteLine("Inserisci il numero degli eventi");
+int numeroEventi = int.Parse(Console.ReadLine());
+ProgrammaEventi programma = new ProgrammaEventi(nomeProgramma); 
+
+
+
+
+
+
+
+
