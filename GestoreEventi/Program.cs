@@ -44,8 +44,25 @@ string nomeProgramma = Console.ReadLine();
 
 Console.WriteLine("Inserisci il numero degli eventi");
 int numeroEventi = int.Parse(Console.ReadLine());
-ProgrammaEventi programma = new ProgrammaEventi(nomeProgramma); 
+ProgrammaEventi programma = new ProgrammaEventi(nomeProgramma);
 
+//Stampare il numero di eventi presenti nel programma eventi
+Console.WriteLine("Il numero di eventi presenti è:" + numeroEventi);
+Console.WriteLine("");
+
+//Stampare la lista di eventi inseriti nel programma usando il metodo già fatto
+
+Console.WriteLine("Gli eventi inseriti sono:");
+Console.WriteLine(ProgrammaEventi.Lista(eventi));
+
+//Chiedere all'utente una data e stampare tutti gli eventi in quella data etc.
+
+Console.WriteLine("Inserisci una data:");
+string dataEvento = Console.ReadLine();
+
+//Eliminare tutti gli eventi dal programma
+
+Console.WriteLine("Elimina gli eventi dal programma");
 
 
 
